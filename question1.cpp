@@ -23,7 +23,8 @@ int main() {
         cout << resized_sales[i] << " ";
     }
     cout << endl;
-    delete[] sales;        
+    delete[] sales;       
+	sales=resized_sales;
     delete[] resized_sales;
     return 0;
 }
